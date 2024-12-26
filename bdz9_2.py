@@ -67,3 +67,4 @@ fhigh = f(X1) + quantile * np.sqrt(D_res_new * x_arr.transpose() @ np.linalg.inv
 f_stat = model.fvalue
 p_value = model.f_pvalue
 print(f_stat, p_value)
+print(x_arr)
