@@ -21,4 +21,4 @@ z_stat = 0
 for (row, col), value in stacked.items():
     z_stat += ((contiguencytable.loc[row, col] - formatted_table.loc[row, col]) ** 2) / formatted_table.loc[row, col]
 print(1-chi2.cdf(z_stat, df=4))
-
+#some coment to check how work git add
